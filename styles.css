@@ -7,14 +7,56 @@ h1 {
     border-left-width: 0px;
 }
 
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
 header {
     background-color: rgb(197, 197, 255);
 }
 
 main {
     background-color: rgb(105, 255, 63);
+    padding-left: 7px; 
+    padding-right: 7px; 
+    flex: 1;
+}
+
+#about {
+    max-width:700px;
 }
 
 footer{
     background-color: aquamarine;
+
+}
+
+#project-list{
+    background-color: #35af8a;
+}
+
+.project-post{
+    background-color: #f2ff00;
+    border: 1px solid red;
+    padding-left: 5px; 
+    padding-right: 5px; 
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+li {
+    margin: 5px;
+}
+nav a {
+    text-decoration: none;
 }
