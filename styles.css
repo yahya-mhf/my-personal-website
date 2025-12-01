@@ -1,0 +1,20 @@
+h1 {
+    border-style: solid;
+    border-color: #35af8a;
+    border-top-width: 0px;
+    border-right-width: 0px;
+    border-bottom-width: 0.2px;
+    border-left-width: 0px;
+}
+
+header {
+    background-color: rgb(197, 197, 255);
+}
+
+main {
+    background-color: rgb(105, 255, 63);
+}
+
+footer{
+    background-color: aquamarine;
+}
